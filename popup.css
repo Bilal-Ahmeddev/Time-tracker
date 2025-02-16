@@ -1,0 +1,42 @@
+/* Unique background with a gradient */
+body {
+    width: 400px;
+    height: 200px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("wallpaper.jpeg");
+    background-size: cover; /* Ensure the image covers the whole background */
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat;
+}
+
+/* Glassmorphic Container */
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Stylish Text */
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: bold;
+    color: #ffdf00;
+}

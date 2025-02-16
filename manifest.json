@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Time Tracker & Motivation",
+    "version": "1.0",
+    "description": "Track your total browsing time, display your real-time age, and get motivated!",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["storage", "idle"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
