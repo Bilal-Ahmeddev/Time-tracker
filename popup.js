@@ -3,7 +3,6 @@ function calculateAge(birthdate) {
     let birthDate = new Date(birthdate);
     let now = new Date();
     
-   
     let ageMilliseconds = now - birthDate;
     
 
