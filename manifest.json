@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Track your total browsing time, display your real-time age, and get motivated!",
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "index.html"
     },
     "permissions": ["storage", "idle"],
     "background": {
